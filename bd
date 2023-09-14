@@ -1,0 +1,16 @@
+""" Base de Datos: XAMPP
+
+En PHPMyAdmin
+Crear Database: midba
+
+# Codigo SQL para crear tablas en midba
+
+CREATE TABLE tabla_de_resultados (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    palabra VARCHAR(255),
+    url VARCHAR(255),
+    descripcion VARCHAR(5000),
+    fecha VARCHAR(255)
+);
+
+"""
